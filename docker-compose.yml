@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  app:
+    image: tech-stack-elk-mockapp/mockapp:1.0.0
+    build:
+      context: mockapp
+      dockerfile: Dockerfile
+  
